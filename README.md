@@ -119,11 +119,11 @@ Jika berhasil melakukan register/login, user akan menerima token yang akan bisa 
 
 screenshot untuk `/register`
 
-    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTRegister.png)
+    !https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTRegister.png
 
 screenshot untuk `/login`
 
-    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTlogin.png)
+    !https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTlogin.png
 
 3. Menampilkan katalog/produk
 
