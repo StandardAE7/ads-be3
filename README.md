@@ -104,7 +104,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     ![Untitled](img-report/DELETEproduct.png)
     
-1. Register/Login User (buyer)
+2. Register/Login User (buyer)
 
 Buyer bisa melakukan register dan login dengan menggunakan routes `/register` dan `/login` dan ditambahkan dengan body berbentuk json seperti di bawah ini
 
@@ -125,7 +125,7 @@ screenshot untuk `/login`
 
     ![Untitled](img-report/POSTlogin.png)
 
-1. Menampilkan katalog/produk
+3. Menampilkan katalog/produk
 
 Setiap pengguna API yang mempunyai maupun tidak mempunyai akun di toko online, mereka bisa melihat listing produk yang ada di toko online menggunakan routes `/catalog` dengan metode GET.
 
@@ -133,7 +133,7 @@ screenshot untuk `/catalog`
 
     ![Untitled](img-report/GETcatalog.png)
 
-1. User menambahkan produk ke keranjang
+4. User menambahkan produk ke keranjang
 
 Setiap buyer akan memiliki cart dimana setiap barang yang masuk ke keranjang akan didata ke database cart dengan diassign jumlah yang ingin dimasukan ke keranjang dan tak lupa id buyer juga didata ke database. Disini menggunakan routes `/cart` dengan metode:
 
@@ -153,7 +153,7 @@ Setiap buyer akan memiliki cart dimana setiap barang yang masuk ke keranjang aka
     
     ![Untitled](img-report/GETcart.png)
     
-1. User Checkout
+5. User Checkout
 
 Setelah barang dimasukan ke cart, buyer dapat melakukan checkout semua barang di cart dengan routes `/checkout` metode POST. Jika salah satu produk kekurangan, maka checkout pada produk tersebut tidak dilakukan. Setelah berhasil melakukan checkout, buyer akan mendapatkan total pembayaran yang harus ia lakukan.
 
