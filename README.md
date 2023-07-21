@@ -54,7 +54,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot GET `/products`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f03bf7bc-f9aa-498e-837e-8fe5a58b7adc/Untitled.png)
+    ![Untitled](img-report/GETproducts.png)
     
 - POST
     
@@ -73,7 +73,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot POST `/products`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/242ae0e6-f5cd-4d86-81c4-535fcc944236/Untitled.png)
+    ![Untitled](img-report/POSTproducts.png)
     
 - PUT
     
@@ -92,7 +92,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot PUT `/products/{id}`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b171971-2470-4fbb-b9ba-a8b6c5adfb82/Untitled.png)
+    ![Untitled](img-report/PUTproducts.png)
     
     Catatan: body tidak perlu lengkap
     
@@ -102,7 +102,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot DELETE `/products/{id}`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7f6a34c-86e9-4d3d-9163-daaac3eb8ab0/Untitled.png)
+    ![Untitled](img-report/DELETEproducts.png)
     
 1. Register/Login User (buyer)
 
@@ -119,11 +119,11 @@ Jika berhasil melakukan register/login, user akan menerima token yang akan bisa 
 
 screenshot untuk `/register`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd2f2ac1-ec47-4188-b70a-b0f4ca4db52a/Untitled.png)
+    ![Untitled](img-report/POSTregister.png)
 
 screenshot untuk `/login`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f98f56ee-25cc-4a7a-9180-0568b8d5bf1f/Untitled.png)
+    ![Untitled](img-report/POSTlogin.png)
 
 1. Menampilkan katalog/produk
 
@@ -131,7 +131,7 @@ Setiap pengguna API yang mempunyai maupun tidak mempunyai akun di toko online, m
 
 screenshot untuk `/catalog`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5aaa6652-10b7-4c5c-8fe2-f1015e0663b2/Untitled.png)
+    ![Untitled](img-report/GETcatalog.png)
 
 1. User menambahkan produk ke keranjang
 
@@ -143,7 +143,7 @@ Setiap buyer akan memiliki cart dimana setiap barang yang masuk ke keranjang aka
     
     screenshot POST `/cart` 
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/642c17d2-16df-4d79-81a1-fc5de729f766/Untitled.png)
+    ![Untitled](img-report/POSTcart.png)
     
 - GET
     
@@ -151,10 +151,12 @@ Setiap buyer akan memiliki cart dimana setiap barang yang masuk ke keranjang aka
     
     screenshot GET `/cart`
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e684ba7f-3962-4b99-bd79-87b67242b482/Untitled.png)
+    ![Untitled](img-report/GETcart.png)
     
 1. User Checkout
 
 Setelah barang dimasukan ke cart, buyer dapat melakukan checkout semua barang di cart dengan routes `/checkout` metode POST. Jika salah satu produk kekurangan, maka checkout pada produk tersebut tidak dilakukan. Setelah berhasil melakukan checkout, buyer akan mendapatkan total pembayaran yang harus ia lakukan.
 
 screenshot POST `/checkout`
+
+    ![Untitled](img-report/POSTcheckout.png)
