@@ -117,8 +117,6 @@ Buyer bisa melakukan register dan login dengan menggunakan routes `/register` da
 
 Jika berhasil melakukan register/login, user akan menerima token yang akan bisa dipakai saat CRUD produk (Seller), menambahkan produk ke keranjang dan checkout
 
-screenshot untuk `/register`
-
     ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/DELETEproduct.png)
 
 screenshot untuk `/login`
