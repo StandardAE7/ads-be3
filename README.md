@@ -54,7 +54,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot GET `/products`
     
-    ![Untitled](img-report/GETproduct.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/GETproduct.png)
     
 - POST
     
@@ -73,7 +73,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot POST `/products`
     
-    ![Untitled](img-report/POSTproduct.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTproduct.png)
     
 - PUT
     
@@ -92,7 +92,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot PUT `/products/{id}`
     
-    ![Untitled](img-report/PUTproduct.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/PUTproduct.png)
     
     Catatan: body tidak perlu lengkap
     
@@ -102,7 +102,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot DELETE `/products/{id}`
     
-    ![Untitled](img-report/DELETEproduct.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/DELETEproduct.png)
     
 2. Register/Login User (buyer)
 
@@ -119,11 +119,11 @@ Jika berhasil melakukan register/login, user akan menerima token yang akan bisa 
 
 screenshot untuk `/register`
 
-    ![Untitled](img-report/POSTregister.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTRegister.png)
 
 screenshot untuk `/login`
 
-    ![Untitled](img-report/POSTlogin.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTlogin.png)
 
 3. Menampilkan katalog/produk
 
@@ -131,7 +131,7 @@ Setiap pengguna API yang mempunyai maupun tidak mempunyai akun di toko online, m
 
 screenshot untuk `/catalog`
 
-    ![Untitled](img-report/GETcatalog.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/Getcatalog.png)
 
 4. User menambahkan produk ke keranjang
 
@@ -143,7 +143,7 @@ Setiap buyer akan memiliki cart dimana setiap barang yang masuk ke keranjang aka
     
     screenshot POST `/cart` 
     
-    ![Untitled](img-report/POSTcart.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTcart.png)
     
 - GET
     
@@ -151,7 +151,7 @@ Setiap buyer akan memiliki cart dimana setiap barang yang masuk ke keranjang aka
     
     screenshot GET `/cart`
     
-    ![Untitled](img-report/GETcart.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/GETcart.png)
     
 5. User Checkout
 
@@ -159,4 +159,4 @@ Setelah barang dimasukan ke cart, buyer dapat melakukan checkout semua barang di
 
 screenshot POST `/checkout`
 
-    ![Untitled](img-report/POSTcheckout.png)
+    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTcheckout.png)
