@@ -117,11 +117,13 @@ Buyer bisa melakukan register dan login dengan menggunakan routes `/register` da
 
 Jika berhasil melakukan register/login, user akan menerima token yang akan bisa dipakai saat CRUD produk (Seller), menambahkan produk ke keranjang dan checkout
 
-    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/DELETEproduct.png)
+screenshot untuk `/login`
+
+![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/DELETEproduct.png)
 
 screenshot untuk `/login`
 
-    !https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTlogin.png
+![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTlogin.png)
 
 3. Menampilkan katalog/produk
 
@@ -129,7 +131,7 @@ Setiap pengguna API yang mempunyai maupun tidak mempunyai akun di toko online, m
 
 screenshot untuk `/catalog`
 
-    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/Getcatalog.png)
+![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/Getcatalog.png)
 
 4. User menambahkan produk ke keranjang
 
@@ -157,4 +159,4 @@ Setelah barang dimasukan ke cart, buyer dapat melakukan checkout semua barang di
 
 screenshot POST `/checkout`
 
-    ![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTcheckout.png)
+![Untitled](https://github.com/StandardAE7/ads-be3/blob/master/img-report/POSTcheckout.png)
