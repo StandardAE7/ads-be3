@@ -54,7 +54,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot GET `/products`
     
-    ![Untitled](img-report/GETproducts.png)
+    ![Untitled](img-report/GETproduct.png)
     
 - POST
     
@@ -73,7 +73,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot POST `/products`
     
-    ![Untitled](img-report/POSTproducts.png)
+    ![Untitled](img-report/POSTproduct.png)
     
 - PUT
     
@@ -92,7 +92,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot PUT `/products/{id}`
     
-    ![Untitled](img-report/PUTproducts.png)
+    ![Untitled](img-report/PUTproduct.png)
     
     Catatan: body tidak perlu lengkap
     
@@ -102,7 +102,7 @@ Disini saya menggunakan routes `/products` dalam memanggil CRUD produk dari tiap
     
     screenshot DELETE `/products/{id}`
     
-    ![Untitled](img-report/DELETEproducts.png)
+    ![Untitled](img-report/DELETEproduct.png)
     
 1. Register/Login User (buyer)
 
